@@ -26,9 +26,9 @@ for(let i=0; i<approvedList.length; i++){
 }
 
 if(result == true){
-  document.getElementById("risultati").innerHTML = "Non errore";
+  alert("Non errore");
 }else{
-  document.getElementById("risultati").innerHTML = "Errore";
+  alert("Errore");
 }
 })
 
@@ -44,10 +44,9 @@ if(result == true){
 let human = Math.floor(Math.random() * 6);
 console.log(human);
 
-
-
 let computer = Math.floor(Math.random() * 6);
 console.log(computer);
+
 
 if(human > computer){
 
